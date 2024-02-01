@@ -1,0 +1,451 @@
+html {
+  overflow-x: hidden;
+  height: fit-content;
+  background-color: #5f33018a;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #f2f1ec 60%, #5f33018a);
+}
+
+header {
+  height: 150px;
+  display: grid;
+  text-align: center;
+  background-image: url("../images/back6.jpg");
+  border-bottom: 1px solid #dbdad6;
+}
+
+header h1 {
+  font-family: "Marck Script", cursive;
+  font-size: 48px;
+  align-self: center;
+  justify-self: center;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(194, 191, 191);
+}
+
+.container {
+  margin-top: 2em;
+  width: 100vw;
+  padding-bottom: 2%;
+  justify-content: center;
+  text-align: center;
+}
+
+.container h1 {
+  font-family: "Marck Script", cursive;
+  font-size: 48px;
+  margin-bottom: 30px;
+  padding-bottom: 2%;
+  padding-top: 4%;
+}
+
+.list-group {
+  margin-left: 35%;
+  width: 35%;
+  margin-bottom: 30px;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.list-group-item i {
+  margin-right: 15px; /* Adjust the margin as needed */
+}
+
+.list-group-item.active {
+  background-color: #5f33018a;
+  color: white;
+}
+
+.hidden-content {
+  display: none;
+  margin-top: 30px;
+  padding-bottom: 0;
+}
+
+.btn {
+  margin-left: 10%;
+  background-color: #5f33018a;
+  border-color: none;
+  color: #f2f1ec;
+}
+
+.btn:hover {
+  background-color: #5f3301b8;
+  color: white;
+}
+
+.add {
+  align-items: center;
+  max-width: 350px;
+  margin: auto;
+}
+
+.add label {
+  font-weight: bold;
+}
+
+.add div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.addcheck {
+  max-width: 350px;
+  margin: auto;
+  align-items: center;
+}
+.addcheck label {
+  margin-top: 5%;
+  font-weight: bold;
+}
+.addcheck1 {
+  display: flex;
+  justify-content: space-around;
+}
+.addcheck2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*log in css*/
+.adminBody {
+  height: 150px;
+  display: grid;
+  text-align: center;
+  background-image: url("../images/back6.jpg");
+  height: 100vh;
+}
+
+.reservation {
+  text-align: center;
+  margin: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation > form {
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 380px;
+  max-width: 550px;
+  padding: 40px;
+  border-radius: 10px;
+  border: 2px solid rgb(194, 191, 191);
+}
+
+.reservation > form input,
+.reservation > form select {
+  margin-top: 14px;
+  width: 40%;
+  border: 1px solid rgb(194, 191, 191);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.reservation > form label {
+  width: 40%;
+  text-align: start;
+}
+
+.reservation h1 {
+  font-family: "Marck Script", cursive;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.reservation button {
+  background-color: #5f33018a;
+  border-color: none;
+  color: #f2f1ec;
+}
+
+form :last-child {
+  margin-top: 20px;
+  margin-left: 0;
+  align-self: center;
+  width: 30%;
+}
+
+/*form de reservacion en admin rest*/
+
+.reservForm > form {
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 590px;
+  max-width: 750px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid rgb(194, 191, 191);
+}
+
+.reservForm > form input,
+.reservForm > form select,
+.reservForm > form textarea {
+  margin-top: 14px;
+  width: 50%;
+  border: 1px solid rgb(194, 191, 191);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.reservForm > form label {
+  width: 30%;
+  text-align: start;
+}
+
+.reservForm h1 {
+  font-family: "Marck Script", cursive;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.reservForm button {
+  background-color: #5f33018a;
+  border-color: none;
+  color: #f2f1ec;
+}
+
+.waitlist > form {
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 500px;
+  max-width: 750px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid rgb(194, 191, 191);
+}
+
+.waitlist > form input,
+.waitlist > form select,
+.waitlist > form textarea {
+  margin-top: 14px;
+  width: 50%;
+  border: 1px solid rgb(194, 191, 191);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.waitlist > form label {
+  width: 30%;
+  text-align: start;
+}
+
+.waitlist h1 {
+  font-family: "Marck Script", cursive;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.waitlist button {
+  background-color: #5f33018a;
+  border-color: none;
+  color: #f2f1ec;
+}
+
+.leaveRev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.leaveRev h1 {
+  font-family: "Marck Script", cursive;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.leaveRev form {
+  background-color: rgba(255, 255, 255, 0.95);
+  max-width: 750px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid rgb(194, 191, 191);
+}
+
+.leaveRev > form label {
+  width: 30%;
+  text-align: start;
+}
+.leaveRev > form input,
+.leaveRev > form select {
+  margin-top: 14px;
+  width: 50%;
+  border: 1px solid rgb(194, 191, 191);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.leaveRev > form select {
+  width: 50%;
+  border: 1px solid rgb(194, 191, 191);
+  color: gold;
+  border-radius: 10px;
+}
+.leaveRev button {
+  background-color: #5f33018a;
+  border-color: none;
+  color: #f2f1ec;
+}
+
+/*tabla de reservaciones*/
+.reserv-table {
+  height: 400px;
+  margin-top: 80px;
+  margin-left: -5%;
+}
+
+.reserv-table h1 {
+  font-family: "Marck Script", cursive;
+  font-size: 48px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid #5f33018a;
+}
+
+/*add new restaurant form*/
+
+.reservAdd {
+  text-align: center;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservAdd > form {
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 600px;
+  min-width: 500px;
+  max-width: 850px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid rgb(194, 191, 191);
+}
+
+.reservAdd > form input,
+.reservAdd > form select {
+  margin-top: 14px;
+  width: 50%;
+  border: 1px solid rgb(194, 191, 191);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.reservAdd > form label {
+  width: 40%;
+  text-align: start;
+}
+
+.reservAdd h1 {
+  font-family: "Marck Script", cursive;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.reservAdd button {
+  background-color: #5f33018a;
+  border-color: none;
+  color: #f2f1ec;
+}
+
+form :last-child {
+  margin-top: 20px;
+  margin-left: 0;
+  align-self: center;
+  width: 50%;
+}
+
+.formyadiel {
+  margin: 0px;
+}
+.y {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.y h1 {
+  font-family: "Marck Script", cursive;
+  font-size: 48px;
+}
+
+.RWforms {
+  display: flex;
+  flex-direction: row;
+}
+
+.reservForm {
+  flex: 50%;
+  text-align: center;
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.waitlist {
+  flex: 50%;
+  text-align: center;
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .reserv-table {
+    margin-left: 10px;
+  }
+
+  .reservation > form {
+    height: 425px;
+  }
+
+  .RWforms {
+    flex-direction: column-reverse;
+  }
+
+  .reviews {
+    justify-content: center;
+  }
+
+  .revinfo h3 {
+    font-size: medium;
+  }
+
+  .revinfo h2 {
+    font-size: medium;
+  }
+
+  .coments h2 {
+    font-size: medium;
+  }
+
+  .revinfo .row .col-6 {
+    width: 50%; /* Adjust the value as needed */
+    margin-bottom: 10px; /* Adjust the value as needed */
+  }
+
+  .coments .row .col-6 {
+    width: 100%; /* Adjust the value as needed */
+    margin-bottom: 10px; /* Adjust the value as needed */
+  }
+
+  .coments .col-6:last-child {
+    width: 100%; /* Adjust the value as needed */
+  }
+
+  .col-12 {
+    width: 100%;
+    margin: 10px 0; /* Adjust the value as needed */
+  }
+}

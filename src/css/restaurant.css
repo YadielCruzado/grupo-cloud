@@ -1,0 +1,172 @@
+html {
+  overflow-x: hidden;
+  height: fit-content;
+  background-color: #5f33018a;
+}
+.container h1 {
+  padding-bottom: 2%;
+  padding-top: 4%;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #f2f1ec 60%, #5f33018a);
+}
+
+header {
+  height: 150px;
+  display: grid;
+  text-align: center;
+  background-image: url("../images/back5.jpg");
+  border-bottom: 1px solid #dbdad6;
+}
+
+header h1 {
+  font-family: "Marck Script", cursive;
+  font-size: 48px;
+  align-self: center;
+  justify-self: center;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(194, 191, 191);
+}
+
+.container {
+  margin-top: 2em;
+  width: 100vw;
+  padding-bottom: 2%;
+  justify-content: center;
+  text-align: center;
+}
+.container h1 {
+  padding-bottom: 2%;
+  padding-top: 4%;
+  font-family: "Marck Script", cursive;
+  font-size: 32px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+  row-gap: 50px;
+}
+
+.row2 > div {
+  flex-basis: calc(100% / 3);
+  display: grid;
+}
+
+.row2 > div > .card {
+  justify-self: center;
+  margin: 20px;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  max-width: 300px;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  aspect-ratio: 9/10;
+  border-radius: 20px;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.revarea {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgb(194, 191, 191);
+  border-radius: 10px;
+  margin: 10px;
+}
+.review {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.review p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.revinfo {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  justify-content: center;
+}
+.revinfo h2 {
+  margin: auto;
+  font-size: larger;
+  width: 70%;
+}
+
+.revinfo h3 {
+  padding-right: 5px;
+  font-size: large;
+}
+
+.review span {
+  color: gold;
+}
+.container > h1 {
+  font-size: 48px;
+}
+
+.coment h3 {
+  font-size: larger;
+}
+.coment form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.coment textarea {
+  width: 60%;
+}
+.coment input {
+  background-color: #5f33018a;
+  color: #f2f1ec;
+  border: 1px solid rgb(194, 191, 191);
+  border-radius: 10px;
+}
+
+.coments {
+  max-width: 350px;
+  display: flex;
+  align-items: center; /* Center align the content */
+  justify-content: center;
+  margin: auto;
+}
+
+.coments h2 {
+  font-size: large;
+}
+
+.coments p {
+  width: 80%; /* Make the paragraph 100% of the available width */
+  max-height: 80px; /* Set a maximum height for the comment area */
+  overflow-y: auto; /* Add vertical scrollbars when the content overflows */
+  padding: 5px; /* Add some padding for better visual appearance */
+}
+
+@media screen and (max-width: 760px) {
+  .row2 {
+    flex-direction: column;
+  }
+
+  .reviews {
+    flex-direction: column;
+  }
+}

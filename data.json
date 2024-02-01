@@ -1,0 +1,77 @@
+{
+    "users": {},
+    "restaurants": [
+        {
+            "name": "Applebees",
+            "image": "applebees.png",
+            "link": "/information",
+            "info": "Un buen restaurante",
+            "menu": {
+                "beberages": "jugo, manzana",
+                "appetizer": "nachos",
+                "desserts": "churro",
+                "principal": "taco"
+            }
+        },
+        {
+            "name": "Chilis",
+            "image": "chilis.png",
+            "link": "/information",
+            "info": "Un buen restaurante",
+            "menu": {
+                "beberages": "jugo",
+                "appetizer": "nachos",
+                "desserts": "churro",
+                "principal": "taco"
+            }
+        },
+        {
+            "name": "Olive Gardens",
+            "image": "olive.png",
+            "link": "/information",
+            "info": "Un buen restaurante",
+            "menu": {
+                "beberages": "jugo",
+                "appetizer": "nachos",
+                "desserts": "churro",
+                "principal": "taco"
+            }
+        },
+        {
+            "name": "Sizzler",
+            "image": "sizzler.png",
+            "link": "/information",
+            "info": "Un buen restaurante",
+            "menu": {
+                "beberages": "jugo",
+                "appetizer": "nachos",
+                "desserts": "churro",
+                "principal": "taco"
+            }
+        },
+        {
+            "name": "Denny's",
+            "image": "dennys.png",
+            "link": "/information",
+            "info": "Un buen restaurante",
+            "menu": {
+                "beberages": "jugo",
+                "appetizer": "nachos",
+                "desserts": "churro",
+                "principal": "taco"
+            }
+        },
+        {
+            "name": "Ponderosa",
+            "image": "ponderosa.png",
+            "link": "/information",
+            "info": "Un buen restaurante",
+            "menu": {
+                "beberages": "jugo",
+                "appetizer": "nachos",
+                "desserts": "churro",
+                "principal": "taco"
+            }
+        }
+    ]
+}

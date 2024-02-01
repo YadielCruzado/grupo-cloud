@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+
+html {
+  overflow-x: hidden;
+  height: fit-content;
+  background-color: #5f33018a;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #f2f1ec 60%, #5f33018a);
+}
+
+header {
+  height: 150px;
+  display: grid;
+  text-align: center;
+  background-image: url("../images/back5.jpg");
+  border-bottom: 1px solid #dbdad6;
+}
+
+header h1 {
+  font-family: "Marck Script", cursive;
+  font-size: 48px;
+  align-self: center;
+  justify-self: center;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(194, 191, 191);
+}
+
+.restInfo {
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+
+.restInfo > div {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(194, 191, 191);
+}
+
+.restInfo > div h1 {
+  width: 100%;
+}
+
+.restInfo > div img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  max-width: 600px;
+  max-height: 300px;
+}
+
+.photoGallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.photoGallery img {
+  width: 100%;
+  height: 100px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.menu {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.menu > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  border-top: 2px solid #dbdad6;
+  padding: 10px;
+}
+
+.menu > div div h3 {
+  text-align: center;
+}
+
+.menu > div div {
+  flex-basis: calc(100 / 3);
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.menu > div div ul li {
+  list-style: none;
+}
+
+.menu > div div ul li::before {
+  content: " ";
+  display: inline-block;
+  background-image: url("../images/restaurant.png");
+  background-size: contain;
+  height: 12px;
+  width: 12px;
+  margin-right: 8px;
+}
+
+.container {
+  text-align: center;
+}
+.container > h1 {
+  font-size: 48px;
+}
+
+.reservation {
+  text-align: center;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation > form {
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(194, 191, 191);
+}
+
+.reservation > form input,
+.reservation > form select {
+  width: 40%;
+  border: 1px solid rgb(194, 191, 191);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.reservation > form label {
+  width: 50%;
+  text-align: start;
+}
+
+header button {
+  background-color: #5f3301;
+  border-color: none;
+  color: #f2f1ec;
+  border-radius: 10px;
+}
+
+header button:hover {
+  background-color: #5f3301b8;
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.revinfo .row .col-6 {
+  width: 170px;
+}
+.coments .row .col-6 {
+  width: 110px;
+}
+
+.coments .col-6:last-child {
+  width: 170px;
+}
+.col-12 {
+  width: 100%;
+  margin: 20px;
+}
+
+.leaveRev {
+  text-align: center;
+}
+
+@media (max-width: 968px) {
+  .reviews {
+    justify-content: center;
+  }
+
+  .revinfo h3 {
+    font-size: medium;
+  }
+
+  .revinfo h2 {
+    font-size: medium;
+  }
+
+  .coments h2 {
+    font-size: medium;
+  }
+
+  .revinfo .row .col-6 {
+    width: 50%; /* Adjust the value as needed */
+    margin-bottom: 10px; /* Adjust the value as needed */
+  }
+
+  .coments .row .col-6 {
+    width: 100%; /* Adjust the value as needed */
+    margin-bottom: 10px; /* Adjust the value as needed */
+  }
+
+  .coments .col-6:last-child {
+    width: 100%; /* Adjust the value as needed */
+  }
+
+  .col-12 {
+    width: 100%;
+    margin: 10px 0; /* Adjust the value as needed */
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "userDB": [
+      {
+        "employee_num": 0,
+        "email": "owner@example.com",
+        "estado": false
+      },
+      {
+        "employee_num": 1,
+        "email": "applebees@gmail.com",
+        "estado": true,
+        "restaurant": "0"
+      },
+      {
+        "employee_num": 2,
+        "email": "chillis@gmail.com",
+        "estado": true,
+        "restaurant": "1"
+      }
+    ]
+  }
